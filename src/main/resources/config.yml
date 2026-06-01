@@ -1,0 +1,42 @@
+# =========================================================
+#  CustomShop configuration
+#  Edit values below, then run /shop reload to apply.
+# =========================================================
+
+database:
+  # Storage backend: "sqlite" (no setup required) or "mysql".
+  type: sqlite
+  host: localhost
+  port: 3306
+  database: customshop
+  username: root
+  password: ""
+  # Connection pool tuning (advanced, safe defaults).
+  pool-size: 10
+  connection-timeout-ms: 30000
+
+shop:
+  # Title of the main shop menu (supports & colour codes).
+  menu-title: "&8» &6CustomShop &8«"
+  # Symbol prepended to all prices shown in GUIs and messages.
+  currency-symbol: "$"
+  # Sound played on a successful purchase (Minecraft sound key).
+  sound-on-purchase: "entity.experience_orb.pickup"
+  # Sound played on a successful sale (Minecraft sound key).
+  sound-on-sell: "entity.villager.yes"
+
+messages:
+  prefix: "&8[&6Shop&8] "
+  purchase-success: "&aPurchased {amount}x {item} for {price}."
+  sell-success: "&aSold {amount}x {item} for {price}."
+  not-enough-money: "&cYou don't have enough money."
+  not-enough-items: "&cYou don't have enough items to sell."
+  not-sellable: "&cThis item cannot be sold."
+  transaction-failed: "&cThe transaction failed. Please try again."
+  inventory-full: "&cYour inventory is full."
+  no-permission: "&cYou don't have permission to do that."
+  reload-success: "&aCustomShop has been reloaded."
+  player-only: "&cThis command can only be used by players."
+  player-not-found: "&cPlayer not found."
+  invalid-amount: "&cPlease provide a valid amount."
+  give-success: "&aGave {price} to {player}."

@@ -1,0 +1,31 @@
+name: CustomShop
+version: '${project.version}'
+main: dev.mika.customshop.CustomShop
+api-version: '1.21'
+author: Mika
+description: A polished GUI shop plugin with Vault economy and transaction logging.
+website: https://github.com/mika/CustomShop
+
+# Vault is required for economy. PlaceholderAPI is optional.
+depend:
+  - Vault
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  shop:
+    description: Opens the shop menu and provides admin sub-commands.
+    usage: |
+      /shop - Open the shop menu
+      /shop reload - Reload config and shops
+      /shop log <player> - View a player's last transactions
+      /shop give <player> <amount> - Give money to a player
+    permission: customshop.use
+
+permissions:
+  customshop.use:
+    description: Allows opening the shop menu.
+    default: true
+  customshop.admin:
+    description: Allows administrative shop commands (reload, log, give).
+    default: op

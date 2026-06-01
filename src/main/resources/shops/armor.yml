@@ -1,0 +1,30 @@
+category-name: "Armor"
+category-icon: DIAMOND_CHESTPLATE
+description:
+  - "&7Protect yourself in style."
+slot: 16
+items:
+  - material: IRON_HELMET
+    buy-price: 90
+    sell-price: 30
+    display-name: "Iron Helmet"
+  - material: IRON_CHESTPLATE
+    buy-price: 140
+    sell-price: 50
+    display-name: "Iron Chestplate"
+  - material: IRON_LEGGINGS
+    buy-price: 120
+    sell-price: 45
+    display-name: "Iron Leggings"
+  - material: IRON_BOOTS
+    buy-price: 80
+    sell-price: 28
+    display-name: "Iron Boots"
+  - material: DIAMOND_CHESTPLATE
+    buy-price: 400
+    sell-price: 150
+    display-name: "Diamond Chestplate"
+  - material: SHIELD
+    buy-price: 60
+    sell-price: 20
+    display-name: "Shield"

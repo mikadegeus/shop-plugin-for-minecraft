@@ -1,0 +1,30 @@
+category-name: "Tools"
+category-icon: IRON_PICKAXE
+description:
+  - "&7Pickaxes, axes and more."
+slot: 12
+items:
+  - material: WOODEN_PICKAXE
+    buy-price: 20
+    sell-price: 0
+    display-name: "Wooden Pickaxe"
+  - material: STONE_PICKAXE
+    buy-price: 40
+    sell-price: 0
+    display-name: "Stone Pickaxe"
+  - material: IRON_PICKAXE
+    buy-price: 120
+    sell-price: 40
+    display-name: "Iron Pickaxe"
+  - material: IRON_AXE
+    buy-price: 120
+    sell-price: 40
+    display-name: "Iron Axe"
+  - material: IRON_SHOVEL
+    buy-price: 80
+    sell-price: 25
+    display-name: "Iron Shovel"
+  - material: FISHING_ROD
+    buy-price: 60
+    sell-price: 15
+    display-name: "Fishing Rod"

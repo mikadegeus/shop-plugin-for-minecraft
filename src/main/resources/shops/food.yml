@@ -1,0 +1,30 @@
+category-name: "Food"
+category-icon: COOKED_BEEF
+description:
+  - "&7Stay fed and healthy."
+slot: 14
+items:
+  - material: BREAD
+    buy-price: 3
+    sell-price: 1
+    display-name: "Bread"
+  - material: COOKED_BEEF
+    buy-price: 8
+    sell-price: 4
+    display-name: "Steak"
+  - material: GOLDEN_APPLE
+    buy-price: 100
+    sell-price: 40
+    display-name: "Golden Apple"
+  - material: COOKED_CHICKEN
+    buy-price: 6
+    sell-price: 3
+    display-name: "Cooked Chicken"
+  - material: CARROT
+    buy-price: 2
+    sell-price: 1
+    display-name: "Carrot"
+  - material: CAKE
+    buy-price: 25
+    sell-price: 10
+    display-name: "Cake"

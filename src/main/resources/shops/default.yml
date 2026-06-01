@@ -1,0 +1,32 @@
+# Blocks category. The file name (without .yml) is used as the internal id.
+category-name: "Blocks"
+category-icon: GRASS_BLOCK
+description:
+  - "&7Buy and sell building blocks."
+# Slot in the main menu (0-based). Optional; auto-assigned if omitted.
+slot: 10
+items:
+  - material: GRASS_BLOCK
+    buy-price: 10
+    sell-price: 5
+    display-name: "Grass Block"
+  - material: STONE
+    buy-price: 5
+    sell-price: 2
+    display-name: "Stone"
+  - material: OAK_LOG
+    buy-price: 15
+    sell-price: 8
+    display-name: "Oak Log"
+  - material: COBBLESTONE
+    buy-price: 4
+    sell-price: 1
+    display-name: "Cobblestone"
+  - material: SAND
+    buy-price: 6
+    sell-price: 3
+    display-name: "Sand"
+  - material: GLASS
+    buy-price: 12
+    sell-price: 4
+    display-name: "Glass"
